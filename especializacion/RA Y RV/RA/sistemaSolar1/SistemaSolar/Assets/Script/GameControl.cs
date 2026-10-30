@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class GameControl : MonoBehaviour
 {
     private float time = 60.0f;
-    private string[] opcionesMostrar = {"Rueda","Coche Abandonado","Furgoneta", "Coche Policia", "Coche Antiguo" };
+    private string[] opcionesMostrar = {"Rueda","Furgoneta", "Coche Policia", "Coche Antiguo" };
     [SerializeField] int Score = 0;
     [SerializeField] TextMeshProUGUI textTime;
     [SerializeField] TextMeshProUGUI cosaAdivinar;
