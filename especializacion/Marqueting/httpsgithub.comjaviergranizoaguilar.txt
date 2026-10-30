@@ -1,0 +1,13 @@
+https://github.com/javiergranizoaguilar/TreasureChest
+
+
+Creamos un canal de texto exclusivo en Discord para centralizar los eventos del proyecto.
+
+Generamos un webhook en los ajustes del canal y copiamos su URL de integración.
+
+Añadimos el webhook en GitHub (Settings > Webhooks) agregando /github al final de la URL.
+
+Configuramos el tipo de contenido en application/json y marcamos el evento push.
+
+Verificamos el enlace subiendo un commit al README, recibiendo el aviso automático en Discord.
+

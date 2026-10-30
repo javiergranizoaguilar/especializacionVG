@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "New Actions",
+    "maps": [
+        {
+            "name": "Interact",
+            "id": "de6bd7cb-af5f-4412-82d3-c3103bdc0e03",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "f8a9fac7-5fc3-4c4a-8385-d96403d41651",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "New action1",
+                    "type": "Button",
+                    "id": "a4b4d6fe-6196-4810-a34c-be35feab7175",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "849fd2ad-7fec-4793-9a4b-2bc38fa4ee1b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "84dc42da-1ae0-4b15-ac1f-42722969274e",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
